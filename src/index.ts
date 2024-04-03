@@ -4,7 +4,7 @@
  * If the input is a string, it is trimmed and converted to lowercase,
  * and then compared with the string "true". Returns true if it matches, false otherwise.
  * If the input is undefined or falsy, returns false.
- * 
+ *
  * @param input - The input value to be converted to a boolean.
  * @returns The boolean representation of the input value.
  */
