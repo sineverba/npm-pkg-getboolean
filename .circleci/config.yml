@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run:
           name: "Setup NPM version"
-          command: npm install -g npm@${NPM_VERSION}
+          command: npm install npm@${NPM_VERSION}
       - run:
           name: "Setup project"
           command: npm ci
